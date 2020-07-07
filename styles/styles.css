@@ -64,6 +64,25 @@ font-weight: 600;
   font-size: 4rem;
 }
 
+#down-arrow {
+  position: relative;
+  animation-name: arrow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
 /*welcome section end*/
 
 /*about*/
